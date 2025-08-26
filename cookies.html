@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cookie Policy - BuildFlow</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container" style="max-width: 800px; margin: 0 auto; padding: 2rem;">
+        <div style="text-align: center; margin-bottom: 3rem;">
+            <a href="index.html" style="color: #015ef4; text-decoration: none; font-weight: 600; font-size: 1.2rem;">← Back to BuildFlow</a>
+        </div>
+        
+        <div style="background: white; padding: 3rem; border-radius: 12px; box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);">
+            <h1 style="color: #1a1a1a; margin-bottom: 1rem;">BuildFlow – Cookie Policy</h1>
+            <p style="color: #8E8E93; margin-bottom: 3rem;">Last updated: <span id="cookies-date"></span></p>
+
+            <p style="margin-bottom: 2rem; line-height: 1.6;">We use cookies to enhance your experience on our website.</p>
+
+            <h2 style="color: #1a1a1a; margin: 2rem 0 1rem 0;">What Are Cookies?</h2>
+            <p style="margin-bottom: 1rem;">Cookies are small files stored in your browser to help us:</p>
+            <ul style="margin-bottom: 2rem; padding-left: 2rem;">
+                <li style="margin-bottom: 0.5rem;">Understand how people use our site</li>
+                <li style="margin-bottom: 0.5rem;">Improve performance</li>
+                <li style="margin-bottom: 0.5rem;">Process payments (via Stripe)</li>
+            </ul>
+
+            <h2 style="color: #1a1a1a; margin: 2rem 0 1rem 0;">What Cookies We Use</h2>
+            <ul style="margin-bottom: 2rem; padding-left: 2rem;">
+                <li style="margin-bottom: 0.5rem;"><strong>Essential cookies:</strong> for basic site functionality</li>
+                <li style="margin-bottom: 0.5rem;"><strong>Analytics cookies:</strong> to help us improve the user experience</li>
+                <li style="margin-bottom: 0.5rem;"><strong>Payment cookies:</strong> required by third-party processors like Stripe</li>
+            </ul>
+
+            <h2 style="color: #1a1a1a; margin: 2rem 0 1rem 0;">Managing Cookies</h2>
+            <p style="margin-bottom: 2rem;">You can disable cookies in your browser. This may affect site performance.</p>
+        </div>
+    </div>
+
+    <script>
+        // Set today's date
+        document.getElementById('cookies-date').textContent = new Date().toLocaleDateString('en-US', { 
+            year: 'numeric', 
+            month: 'long', 
+            day: 'numeric' 
+        });
+    </script>
+</body>
+</html> 
