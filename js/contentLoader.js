@@ -12,6 +12,7 @@ function setTextContent(selector, text) {
 }
 
 // Function to safely set HTML content
+// eslint-disable-next-line @typescript-eslint/no-unused-vars
 function setHTMLContent(selector, html) {
   const element = document.querySelector(selector);
   if (element && html !== undefined) {

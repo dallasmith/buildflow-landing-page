@@ -14,6 +14,9 @@ interface FAQAccordionProps {
 export default function FAQAccordion({ items }: FAQAccordionProps) {
   const [expandedItems, setExpandedItems] = useState<Set<number>>(new Set());
   const questionRefs = useRef<(HTMLButtonElement | null)[]>([]);
+  
+  // Constants to avoid inline literals
+  const CHEVRON_DOWN = '▼';
 
   // Check for reduced motion preference
   const prefersReducedMotion = typeof window !== 'undefined' 
@@ -37,16 +40,18 @@ export default function FAQAccordion({ items }: FAQAccordionProps) {
         event.preventDefault();
         toggleItem(index);
         break;
-      case 'ArrowDown':
+      case 'ArrowDown': {
         event.preventDefault();
         const nextIndex = (index + 1) % items.length;
         questionRefs.current[nextIndex]?.focus();
         break;
-      case 'ArrowUp':
+      }
+      case 'ArrowUp': {
         event.preventDefault();
         const prevIndex = index === 0 ? items.length - 1 : index - 1;
         questionRefs.current[prevIndex]?.focus();
         break;
+      }
     }
   };
 
@@ -118,7 +123,7 @@ export default function FAQAccordion({ items }: FAQAccordionProps) {
                 }}
                 aria-hidden="true"
               >
-                ▼
+                {CHEVRON_DOWN}
               </span>
             </button>
             

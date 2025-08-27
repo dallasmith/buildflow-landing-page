@@ -127,7 +127,7 @@ export default function StickyCTA({ label, href }: StickyCTAProps) {
       
       {/* Hidden reference to main CTA section for intersection observer */}
       <div 
-        ref={ctaSectionRef as any}
+        ref={ctaSectionRef}
         style={{ position: 'absolute', top: '-100vh', pointerEvents: 'none' }}
         aria-hidden="true"
       />
