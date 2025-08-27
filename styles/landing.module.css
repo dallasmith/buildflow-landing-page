@@ -631,3 +631,14 @@ nav a:hover {
     padding: 0 var(--space-4);
   }
 }
+
+/* Sticky CTA - Mobile Only */
+.sticky-cta {
+  display: block;
+}
+
+@media (min-width: 1024px) {
+  .sticky-cta {
+    display: none;
+  }
+}
