@@ -167,6 +167,14 @@ p {
   text-shadow: none;
 }
 
+.section-subtitle {
+  text-align: center;
+  font-size: 1.1rem;
+  color: #666;
+  margin-bottom: 2rem;
+  line-height: 1.5;
+}
+
 .hero-screenshot {
   max-width: 350px;
   height: auto;
