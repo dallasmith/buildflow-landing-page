@@ -69,7 +69,7 @@ export const landingCopy = {
       {
         number: "3",
         title: "Smart Reminders & Backup",
-        description: "48h, 24h, and day-of reminders. Switch to a backup sub with one tap if needed."
+        description: "48h and 24h reminders. Switch to a backup sub with one tap if needed."
       }
     ],
     cta: {
@@ -94,7 +94,7 @@ export const landingCopy = {
       },
       {
         title: "Smart Reminders",
-        description: "48h, 24h, and day-of reminders sent automatically."
+        description: "48h and 24h reminders sent automatically."
       },
       {
         title: "Backup Subs",
