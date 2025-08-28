@@ -1,3 +1,10 @@
+/*
+ * BuildFlow Landing Page Styles
+ * Date: 2025-08-27
+ * Convention: IDs for anchors only; styling via classes
+ * Mobile-first with desktop overrides at end of file
+ */
+
 /* Mobile-first responsive design tokens */
 :root {
   --step--1: clamp(0.9rem, 0.85rem + 0.5vw, 1rem);
@@ -590,6 +597,11 @@ nav a:hover {
   }
 }
 
+/* Sticky CTA - Mobile Only */
+.sticky-cta {
+  display: block;
+}
+
 @media (min-width: 1024px) {
   .hero {
     display: grid;
@@ -633,6 +645,10 @@ nav a:hover {
   .section {
     padding: 60px 0; /* larger desktop section padding */
   }
+  
+  .sticky-cta {
+    display: none;
+  }
 }
 
 @media (min-width: 1200px) {
@@ -646,8 +662,4 @@ nav a:hover {
   display: block;
 }
 
-@media (min-width: 1024px) {
-  .sticky-cta {
-    display: none;
-  }
-}
+

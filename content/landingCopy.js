@@ -1,22 +1,3 @@
-/**
- * ⚠️  CONTENT SAFEGUARD: All visible strings must come from landingCopy.js to avoid drift
- * 
- * This file is the SINGLE SOURCE OF TRUTH for all landing page copy.
- * 
- * IMPORTANT RULES:
- * 1. NEVER change text without business owner approval
- * 2. All changes must be committed with updated snapshots
- * 3. Run tests to verify copy consistency
- * 4. Use exact punctuation, spacing, and formatting as approved
- * 
- * To update copy:
- * 1. Get explicit approval from business owner
- * 2. Update this file
- * 3. Run: npm run test -- --update-snapshots
- * 4. Verify changes are correct
- * 5. Commit both content AND updated snapshot
- */
-
 export const landingCopy = {
   meta: {
     title: "BuildFlow - Stop Chasing Subs. Start Building.",

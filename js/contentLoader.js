@@ -2,8 +2,6 @@
 // This script loads content from landingCopy.js and applies it to the HTML
 
 import { landingCopy } from '../content/landingCopy.js';
-import { initStickyCta } from './stickyCta.js';
-import { initFaqAccordion } from './faqAccordion.js';
 
 // Function to safely set text content
 function setTextContent(selector, text) {
@@ -14,7 +12,6 @@ function setTextContent(selector, text) {
 }
 
 // Function to safely set HTML content
-// eslint-disable-next-line @typescript-eslint/no-unused-vars
 function setHTMLContent(selector, html) {
   const element = document.querySelector(selector);
   if (element && html !== undefined) {
@@ -203,36 +200,9 @@ function populateAllContent() {
     populateFinalCta();
     populateFooter();
     
-    // Initialize interactive components
-    initInteractiveComponents();
-    
     console.log('BuildFlow landing page content loaded successfully');
   } catch (error) {
     console.error('Error loading BuildFlow content:', error);
-  }
-}
-
-// Function to initialize interactive components
-function initInteractiveComponents() {
-  try {
-    // Get the primary CTA label from the first .primary-cta button
-    const primaryCtaButton = document.querySelector('.primary-cta');
-    const ctaLabel = primaryCtaButton ? primaryCtaButton.textContent : '🔒 Reserve Your Spot — $10';
-    
-    console.log('Found primary CTA label:', ctaLabel);
-    
-    // Initialize StickyCTA
-    initStickyCta({
-      label: ctaLabel,
-      href: '#cta-section',
-      targetId: 'cta-section'
-    });
-    
-    // Initialize FAQ Accordion
-    initFaqAccordion('#faq');
-    
-  } catch (error) {
-    console.error('Error initializing interactive components:', error);
   }
 }
 
