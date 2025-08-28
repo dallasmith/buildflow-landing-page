@@ -603,7 +603,7 @@ nav a:hover {
 }
 
 @media (min-width: 1024px) {
-  .hero {
+  .hero > .container {
     display: grid;
     grid-template-columns: 1.1fr 0.9fr;
     gap: 48px;
@@ -612,17 +612,16 @@ nav a:hover {
     padding: 60px 40px; /* larger desktop padding */
   }
   
-  .hero-container {
-    flex-direction: row;
+  .hero > .container .hero-container {
     text-align: left;
     align-items: flex-start;
   }
   
-  .hero-content {
+  .hero > .container .hero-content {
     text-align: left; /* ensure left alignment on desktop */
   }
   
-  .hero-cta {
+  .hero > .container .hero-cta {
     align-items: flex-start;
   }
   
@@ -655,11 +654,6 @@ nav a:hover {
   .container {
     padding: 0 60px; /* largest desktop container padding */
   }
-}
-
-/* Sticky CTA - Mobile Only */
-.sticky-cta {
-  display: block;
 }
 
 
