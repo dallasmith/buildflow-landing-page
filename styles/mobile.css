@@ -4,7 +4,11 @@
 .container { padding-left: 16px; padding-right: 16px; }
 
 /* Hero stacks */
-.hero-container { display: block; padding: 24px 0; gap: 0; }
+.hero-container {
+  display: block;
+  padding: 24px 16px; /* was 24px 0 — add side padding on phones */
+  gap: 0;
+}
 
 #hero h1 { font-size: clamp(24px, 6vw, 28px); line-height: 1.2; margin: 0 0 12px; }
 .hero-subtitle { font-size: 16px; line-height: 1.5; margin: 0 0 16px; }
@@ -32,4 +36,33 @@
 /* Respect reduced motion */
 @media (prefers-reduced-motion: reduce) {
   * { animation: none !important; transition: none !important; }
+}
+
+/* Prevent sideways scroll on small screens */
+html, body {
+  overflow-x: hidden;
+  width: 100%;
+}
+
+/* Ensure media never exceeds viewport width */
+img, svg, video {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Make hero visual strictly fit within the viewport */
+.hero-visual {
+  overflow: hidden; /* clips any slight overflow from images/shadows */
+}
+.hero-visual img,
+.hero-screenshot {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+/* Ensure full-width buttons don't overflow due to padding/border */
+.primary-cta {
+  width: 100%;
+  box-sizing: border-box;
 }
