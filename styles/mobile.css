@@ -17,7 +17,6 @@
 .primary-cta { width: 100%; min-height: 44px; font-size: 16px; }
 
 .hero-visual { margin-top: 16px; text-align: center; }
-.hero-visual img { max-width: 100%; height: auto; }
 
 /* Common grids → single column on phones */
 .problem-grid, .features-grid, .conversation-screenshots, .comparison, .footer-content {
@@ -54,11 +53,15 @@ img, svg, video {
 .hero-visual {
   overflow: hidden; /* clips any slight overflow from images/shadows */
 }
+
+/* Hero image safe sizing for phones — prevent edge cropping */
 .hero-visual img,
 .hero-screenshot {
   display: block;
-  width: 100%;
+  max-width: 90%;     /* shrink slightly so angled edges/shadows don't clip */
   height: auto;
+  margin: 8px auto 0; /* center horizontally with a small top gap */
+  object-fit: contain; /* keep proportions within container bounds */
 }
 
 /* Ensure full-width buttons don't overflow due to padding/border */
