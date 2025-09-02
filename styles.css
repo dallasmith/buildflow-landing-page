@@ -169,6 +169,11 @@ p {
   text-shadow: none;
 }
 
+/* Trust text in how-it-works section should be black */
+#how-it-works .trust-text {
+  color: #1a1a1a;
+}
+
 .section-subtitle {
   text-align: center;
   font-size: 1.1rem;
