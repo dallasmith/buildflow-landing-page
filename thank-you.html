@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Thank You - BuildFlow</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="styles/mobile.css?v=2025-08-28T00:00:00Z" media="(max-width: 767px)">
+  <style>
+    /* Thank you page specific styles */
+    body {
+      background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 2rem 1rem;
+    }
+
+    .thank-you-card {
+      background: white;
+      border-radius: 16px;
+      padding: 3rem 2rem;
+      max-width: 600px;
+      width: 100%;
+      text-align: center;
+      box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+      border: 1px solid #F2F2F7;
+    }
+
+    .thank-you-icon {
+      font-size: 4rem;
+      margin-bottom: 1.5rem;
+      display: block;
+    }
+
+    .thank-you-card h1 {
+      font-size: 2.5rem;
+      color: #1a1a1a;
+      margin-bottom: 1.5rem;
+      line-height: 1.2;
+    }
+
+    .thank-you-card p {
+      font-size: 1.1rem;
+      color: #666;
+      line-height: 1.6;
+      margin-bottom: 1rem;
+    }
+
+    .thank-you-card .small-note {
+      font-size: 0.9rem;
+      color: #8E8E93;
+      margin-top: 2rem;
+      margin-bottom: 2rem;
+    }
+
+    .thank-you-card .primary-cta {
+      display: inline-block;
+      text-decoration: none;
+      margin-top: 1rem;
+    }
+
+    /* Mobile adjustments */
+    @media (max-width: 767px) {
+      body {
+        padding: 1rem;
+      }
+      
+      .thank-you-card {
+        padding: 2rem 1.5rem;
+        border-radius: 12px;
+      }
+
+      .thank-you-icon {
+        font-size: 3rem;
+      }
+
+      .thank-you-card h1 {
+        font-size: 2rem;
+      }
+
+      .thank-you-card p {
+        font-size: 1rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="thank-you-card">
+    <span class="thank-you-icon">🎉</span>
+    <h1>Thanks — You're in!</h1>
+    <p>We received your payment. A welcome email from support@buildflowapp.com is on its way with next steps.</p>
+    <p class="small-note">If you don't see it in a few minutes, check spam or search for 'BuildFlow'.</p>
+    <a href="/" class="primary-cta">← Back to Homepage</a>
+  </div>
+</body>
+</html>
