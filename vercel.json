@@ -1,6 +1,3 @@
 {
-  "cleanUrls": true,
-  "redirects": [
-    { "source": "/thank-you", "destination": "/thank-you.html", "permanent": true }
-  ]
+  "cleanUrls": true
 }
