@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Checkout Canceled - BuildFlow</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="styles/mobile.css?v=2025-08-28T00:00:00Z" media="(max-width: 767px)">
+  <style>
+    /* Cancel page specific styles */
+    body {
+      background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 2rem 1rem;
+    }
+
+    .cancel-card {
+      background: white;
+      border-radius: 16px;
+      padding: 3rem 2rem;
+      max-width: 600px;
+      width: 100%;
+      text-align: center;
+      box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+      border: 1px solid #F2F2F7;
+    }
+
+    .cancel-icon {
+      font-size: 4rem;
+      margin-bottom: 1.5rem;
+      display: block;
+    }
+
+    .cancel-card h1 {
+      font-size: 2.5rem;
+      color: #1a1a1a;
+      margin-bottom: 1.5rem;
+      line-height: 1.2;
+    }
+
+    .cancel-card p {
+      font-size: 1.1rem;
+      color: #666;
+      line-height: 1.6;
+      margin-bottom: 1rem;
+    }
+
+    .cancel-card .primary-cta {
+      display: inline-block;
+      text-decoration: none;
+      margin-top: 1rem;
+    }
+
+    /* Mobile adjustments */
+    @media (max-width: 767px) {
+      body {
+        padding: 1rem;
+      }
+      
+      .cancel-card {
+        padding: 2rem 1.5rem;
+        border-radius: 12px;
+      }
+
+      .cancel-icon {
+        font-size: 3rem;
+      }
+
+      .cancel-card h1 {
+        font-size: 2rem;
+      }
+
+      .cancel-card p {
+        font-size: 1rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="cancel-card">
+    <span class="cancel-icon">😕</span>
+    <h1>Checkout Canceled</h1>
+    <p>It looks like you canceled your payment. Don't worry — your card wasn't charged.</p>
+    <a href="https://buy.stripe.com/5kQaEX4LMf029087bv3wQ00" class="primary-cta">Try Again</a>
+  </div>
+</body>
+</html>
