@@ -61,3 +61,5 @@ To integrate into your current static HTML site, you would need to:
 - **StickyCTA**: Proper focus management, keyboard navigation, screen reader support
 - **FAQAccordion**: ARIA expanded/controls, keyboard navigation, reduced motion support
 - Both components follow WCAG 2.1 AA guidelines
+
+

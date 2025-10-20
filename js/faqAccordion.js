@@ -126,3 +126,5 @@ export function initFaqAccordion(containerSelector = '#faq') {
 
   console.log(`FAQAccordion: Initialized with ${faqItems.length} items`);
 }
+
+

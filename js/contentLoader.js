@@ -31,7 +31,7 @@ function populateHeader() {
 // Function to populate hero section
 function populateHero() {
   setTextContent('#hero h1', landingCopy.hero.headline);
-  setTextContent('#hero .hero-subtitle', landingCopy.hero.subtitle);
+  setHTMLContent('#hero .hero-subtitle', landingCopy.hero.subtitleHTML);
   setTextContent('#hero .primary-cta', landingCopy.hero.cta.primary);
   setTextContent('#hero .trust-text', landingCopy.hero.cta.trustText);
 }
