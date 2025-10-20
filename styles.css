@@ -1260,4 +1260,32 @@ footer {
   p {
     font-size: 1rem;
   }
+}
+
+/* Hero Section Polish */
+.hero-subtitle { 
+  max-width: 48ch; 
+  font-size: clamp(18px, 2.1vw, 20px); 
+  line-height: 1.5; 
+  margin: 16px 0 18px; 
+}
+
+.hero-note { 
+  margin-top: 8px; 
+  opacity: .9; 
+}
+
+.hero-cta { 
+  margin-top: 18px; 
+}
+
+.primary-cta { 
+  display: inline-block; 
+  margin-bottom: 14px; 
+}
+
+.trust-text { 
+  max-width: 52ch; 
+  line-height: 1.45; 
+  margin-top: 4px; 
 } 

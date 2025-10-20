@@ -13,16 +13,12 @@ export const landingCopy = {
     cta: "🔒 Reserve Your Spot — $10"
   },
   hero: {
-    headline: "Stop Chasing Subs. Start Building.",
-    subtitle: "BuildFlow automates scheduling and follow-ups with your subcontractors so you spend less time chasing and more time building. No sub app required — they just get simple text reminders.",
-    subtitleHTML: `
-      A <strong>mobile-first iOS app</strong> that automates your subcontractor <em>scheduling texts</em> — confirmations, reminders, and reschedules — so you can stop chasing and start building.<br>
-      <strong>Subs don't need the app</strong> — they get your updates by text.
-    `,
-    cta: {
-      primary: "🔒 Reserve Your Spot — $10",
-      trustText: "Be the first to try BuildFlow. Lock in early access for just $10 — fully refundable. Spots are limited — we're only taking 25 early users for the beta."
-    }
+    headline: 'Stop Chasing Subs. Start Building.',
+    subtitleHTML: `BuildFlow is a <strong>mobile-first iOS app</strong> that automates your subcontractor scheduling texts so jobs stay on track.
+    <div class="hero-note"><strong>Subs don't need the app</strong> — they get your updates by text.</div>`,
+    cta: { primary: 'Reserve Your Spot — $10' },
+    trustHTML: `<strong>Fully refundable.</strong> No strings attached.<br>
+    Spots are limited — we're only taking 25 early users for the beta.`
   },
   problem: {
     headline: "Scheduling subs shouldn't take 20 hours a week.",

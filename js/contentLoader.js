@@ -33,7 +33,7 @@ function populateHero() {
   setTextContent('#hero h1', landingCopy.hero.headline);
   setHTMLContent('#hero .hero-subtitle', landingCopy.hero.subtitleHTML);
   setTextContent('#hero .primary-cta', landingCopy.hero.cta.primary);
-  setTextContent('#hero .trust-text', landingCopy.hero.cta.trustText);
+  setHTMLContent('#hero .trust-text', landingCopy.hero.trustHTML);
 }
 
 // Function to populate problem section
