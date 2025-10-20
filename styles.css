@@ -1291,7 +1291,9 @@ footer {
 }
 
 .steps-cta .trust-text {
-  text-align: center;
+  text-align: center !important;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 /* Beta Section Styling */
