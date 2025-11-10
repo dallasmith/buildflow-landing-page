@@ -40,7 +40,7 @@ export function initStickyCta({ label, href, targetId }) {
   // Create button
   const button = document.createElement('button');
   button.className = 'sticky-cta__button';
-  button.textContent = label || '🔒 Reserve Your Spot — $10';
+  button.textContent = label || '🔒 Reserve Your Spot: $10';
   button.style.cssText = `
     display: block;
     width: 100%;
