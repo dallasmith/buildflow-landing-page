@@ -14,39 +14,39 @@ export const landingCopy = {
   },
   hero: {
     headline: 'Less Phone Time. More Build Time.',
-    subtitleHTML: `BuildFlow keeps your projects moving automatically.<br>
-    Whether you’re managing flips, remodels, or multiple job sites, BuildFlow handles your contractor scheduling texts from the first invite to the final reminder, so everyone stays aligned without extra effort.`,
+    subtitleHTML: "You're running jobs, not a call center. BuildFlow handles the scheduling texts, confirmations, and reminders automatically — so your subs show up, your projects stay on track, and you're not the one sending every follow-up.",
     cta: { primary: 'Reserve Your Spot: $10' },
     trustHTML: `Fully refundable. No strings attached.<br>
-    Spots are limited, we’re only taking 25 early users for the beta.`
+    Spots are limited, we're only taking 25 early users for the beta.`
   },
   problem: {
-    headline: "Scheduling shouldn’t take 20 hours a week.",
+    headline: "Sound Familiar?",
     items: [
       {
-        title: "Your Phone Became the Job",
-        description: "15+ calls a day just to keep everyone on the same page. “You still good for Tuesday?” shouldn’t be your full-time job."
+        title: "You're the Reminder System — and that's the problem.",
+        description: "You've got trades to manage, clients to update, and materials to track. Instead you're the one sending every confirmation, every reminder, every follow-up. That's not your job."
       },
       {
-        title: "Missed Deadlines",
-        description: "Messages get missed, plans shift, and before you know it, you’re explaining to clients why their project is delayed."
+        title: "One Missed Reply Blows the Schedule.",
+        description: "A sub ghosts, a message gets buried, and now you're a week behind explaining delays to a client who's already on edge. It cascades fast."
       },
       {
-        title: "Lost Revenue",
-        description: "Every hour spent coordinating is an hour not spent building, managing crews, or finding your next project."
+        title: "Chasing Subs Is Costing You More Than You Think.",
+        description: "Every confirmation you're waiting on is living rent-free in your head. That's energy you're not putting into the next bid, the next job, or just switching off at the end of the day."
       }
     ]
   },
   appScreenshot: {
-    headline: "Know What’s Locked In: At a Glance",
-    subtitle: "Save hours every week coordinating your contractors and subs. BuildFlow gives you clear visibility into who’s confirmed, who’s pending, and what’s coming next, all in one simple view."
+    headline: "See Every Job. Know Exactly Where You Stand.",
+    subtitle: "Save hours every week coordinating your contractors and subs. BuildFlow gives you clear visibility into who's confirmed, who's pending, and what's coming next, all in one simple view."
   },
   noteFromBuilder: {
     headline: "Built on the Job Site, by Someone Still in It",
     content: [
       "I came from the job site, loading materials, sweeping floors, doing whatever needed to get done. Within six months, I was running multiple renovation projects as a superintendent, managing trades, schedules, and clients day to day. Between tracking confirmations, chasing no-shows, and explaining delays to owners, most days felt like managing chaos.",
-      "That’s when I thought: there had to be a better way.",
-      "That’s why I built BuildFlow, not a bloated platform with a thousand tabs, just a simple tool for people like you and me: managing multiple jobs, juggling trades, and keeping the day on track. BuildFlow helps you stay in control, keep everyone aligned, and cut through the chaos."
+      "That's when I thought: there had to be a better way.",
+      "The job would end for the day but the mental checklist never did. Who confirmed? Who still hasn't replied? What falls apart tomorrow if I don't follow up tonight? BuildFlow started because I wanted to actually leave work at work.",
+      "That's why I built BuildFlow, not a bloated platform with a thousand tabs, just a simple tool for people like you and me: managing multiple jobs, juggling trades, and keeping the day on track. BuildFlow helps you stay in control, keep everyone aligned, and cut through the chaos."
     ],
     signature: {
       name: "Dallas",
@@ -65,7 +65,7 @@ export const landingCopy = {
       {
         number: "2",
         title: "BuildFlow Texts Your Subs",
-        description: "Automatic SMS with job details. Subs reply “Y” or “N”, no app for them to download. We built BuildFlow around how subcontractors already work: texting. No training for them, and almost none for you."
+        description: "Automatic SMS with job details. Subs reply \"Y\" or \"N\", no app for them to download. We built BuildFlow around how subcontractors already work: texting. No training for them, and almost none for you."
       },
       {
         number: "3",
@@ -80,7 +80,7 @@ export const landingCopy = {
   },
   projectsScreenshot: {
     headline: "Multiple Jobs. Zero Chaos.",
-    subtitle: "Whether you’ve got two projects or ten, BuildFlow helps you track them all clearly and simply."
+    subtitle: "Two jobs or ten — you need to know the status of every trade on every project without making a single call. That's exactly what BuildFlow shows you."
   },
   textConversations: {
     headline: "Real Conversations. Real Simple.",
@@ -91,52 +91,52 @@ export const landingCopy = {
     items: [
       {
         title: "Text-Based Scheduling",
-        description: "No sub apps or training. They get your texts like always, now it’s automated."
+        description: "Your subs don't download anything. They get a text, they reply. That's it."
       },
       {
         title: "Smart Reminders",
-        description: "48-hour and 24-hour reminders sent automatically."
+        description: "48 and 24-hour reminders go out without you touching a thing. No-shows don't sneak up on you."
       },
       {
         title: "Backup Subs",
-        description: "Assign fallbacks. Switch to a backup with one tap when needed."
+        description: "Someone bails? Your backup is already in the system. One tap and they're on the job."
       },
       {
         title: "Targeted Notifications",
-        description: "Only affected trades get delay notifications, not everyone on the project."
+        description: "When something shifts, only the trades that need to know get notified. No noise, no confusion."
       },
       {
         title: "Real-Time Updates",
-        description: "See who’s confirmed, who’s pending, and who’s declined at a glance."
+        description: "Open the app and know exactly where every trade stands. No calls to find out."
       },
       {
         title: "Zero Training",
-        description: "Your contractors already know how to text. No new apps. No learning curve."
+        description: "You'll be up and running fast. Your subs won't even know anything changed."
       }
     ]
   },
   beforeAfter: {
     headline: "Before vs. After BuildFlow",
     before: {
-      title: "🔴 The Old Way",
+      title: "🔴 The Old Way Is Costing You.",
       items: [
-        "“You still good for Thursday?”",
-        "“Did anyone remind the framer?”",
-        "“He ghosted. Now what?”",
-        "15+ calls a day",
-        "Missed deadlines",
-        "Stressed clients"
+        "Texting \"still good for Thursday?\" for the third time",
+        "Realizing at 7am the framer never confirmed",
+        "Sub ghosted. Schedule's blown. Client's calling.",
+        "Your evening interrupted by work you forgot to chase",
+        "Delays you saw coming but couldn't stop",
+        "Clients losing confidence"
       ]
     },
     after: {
-      title: "✅ With BuildFlow",
+      title: "✅ BuildFlow Changes That.",
       items: [
-        "Contractors already confirmed days ago",
-        "Smart reminders sent automatically",
-        "Backup already invited",
-        "Fewer calls every day",
-        "Projects stay on schedule",
-        "Happier clients"
+        "Confirmation already came in two days ago",
+        "Reminders went out automatically — you didn't think about it",
+        "Backup sub notified before it became your problem",
+        "You actually switched off last night",
+        "Schedule holds because nothing slipped through",
+        "Clients see a pro who has it handled"
       ]
     }
   },
@@ -156,15 +156,15 @@ export const landingCopy = {
     items: [
       {
         question: "Do I need to install anything?",
-        answer: "Yes, you’ll install the BuildFlow app. Your contractors won’t. They’ll get texts from you like they already do, simple and seamless."
+        answer: "Yes, you'll install the BuildFlow app. Your contractors won't. They'll get texts from you like they already do, simple and seamless."
       },
       {
         question: "What happens after I pay?",
-        answer: "You’re added to the early access crew. When beta opens, you’ll be first in line and locked in at a discount."
+        answer: "You're added to the early access crew. When beta opens, you'll be first in line and locked in at a discount."
       },
       {
         question: "Why charge $10?",
-        answer: "It helps us prioritize builders and investors who are serious about early access. If it’s not a fit, you’ll get your $10 back."
+        answer: "It helps us prioritize builders and investors who are serious about early access. If it's not a fit, you'll get your $10 back."
       },
       {
         question: "Will this bother my contractors?",
@@ -172,12 +172,12 @@ export const landingCopy = {
       },
       {
         question: "When does the beta start?",
-        answer: "We’re launching beta testing at the beginning of 2026. Early access members get priority onboarding and first access when we go live."
+        answer: "We're launching beta testing at the beginning of 2026. Early access members get priority onboarding and first access when we go live."
       }
     ]
   },
   finalCta: {
-    headline: "Ready to Stop Chasing Subs?",
+    headline: "Done Chasing Confirmations?",
     description: "Join builders and investors who want to get ahead.",
     cta: "🔒 Reserve Your Spot: $10"
   },
