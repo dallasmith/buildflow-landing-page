@@ -58,14 +58,22 @@ function populateAppScreenshot() {
 // Function to populate note from builder section
 function populateNoteFromBuilder() {
   setTextContent('#note-from-builder h2', landingCopy.noteFromBuilder.headline);
-  
-  const contentParagraphs = document.querySelectorAll('#note-from-builder .builder-content p');
-  landingCopy.noteFromBuilder.content.forEach((paragraph, index) => {
-    if (contentParagraphs[index]) {
-      setTextContent(`#note-from-builder .builder-content p:nth-child(${index + 1})`, paragraph);
-    }
-  });
-  
+
+  const builderContent = document.querySelector('#note-from-builder .builder-content');
+  if (builderContent) {
+    // Remove all existing paragraphs
+    const existingParagraphs = builderContent.querySelectorAll('p');
+    existingParagraphs.forEach(p => p.remove());
+
+    // Insert a fresh paragraph for each content item before the signature
+    const signature = builderContent.querySelector('.builder-signature');
+    landingCopy.noteFromBuilder.content.forEach(text => {
+      const p = document.createElement('p');
+      p.textContent = text;
+      builderContent.insertBefore(p, signature);
+    });
+  }
+
   setTextContent('#note-from-builder .builder-signature strong', landingCopy.noteFromBuilder.signature.name);
   setTextContent('#note-from-builder .builder-signature span', landingCopy.noteFromBuilder.signature.title);
 }
