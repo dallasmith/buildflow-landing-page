@@ -24,7 +24,7 @@ export const landingCopy = {
     items: [
       {
         title: "You're the Reminder System — and that's the problem.",
-        description: "You've got trades to manage, clients to update, and materials to track. Instead you're the one sending every confirmation, every reminder, every follow-up. That's not your job."
+        description: "You've got trades to manage, clients to update, and materials to track. Instead you're the one sending every confirmation, every reminder, every follow-up. That's time you're not getting back."
       },
       {
         title: "One Missed Reply Blows the Schedule.",
@@ -43,10 +43,11 @@ export const landingCopy = {
   noteFromBuilder: {
     headline: "Built on the Job Site, by Someone Still in It",
     content: [
-      "I came from the job site, loading materials, sweeping floors, doing whatever needed to get done. Within six months, I was running multiple renovation projects as a superintendent, managing trades, schedules, and clients day to day. Between tracking confirmations, chasing no-shows, and explaining delays to owners, most days felt like managing chaos.",
+      "I came from the job site — loading materials, sweeping floors, doing whatever needed to get done. Within six months I was running multiple renovation projects as a superintendent, managing trades, schedules, and clients day to day.",
+      "Most days felt like managing chaos. Between tracking confirmations, chasing no-shows, and explaining delays to owners, the work never really stopped — even when I left the site.",
+      "The job would end for the day but the mental checklist never did. Who confirmed? Who still hasn't replied? What falls apart tomorrow if I don't follow up tonight?",
       "That's when I thought: there had to be a better way.",
-      "The job would end for the day but the mental checklist never did. Who confirmed? Who still hasn't replied? What falls apart tomorrow if I don't follow up tonight? BuildFlow started because I wanted to actually leave work at work.",
-      "That's why I built BuildFlow, not a bloated platform with a thousand tabs, just a simple tool for people like you and me: managing multiple jobs, juggling trades, and keeping the day on track. BuildFlow helps you stay in control, keep everyone aligned, and cut through the chaos."
+      "That's why I built BuildFlow — not a bloated platform with a thousand tabs, just a simple tool for people like you and me: managing multiple jobs, juggling trades, and keeping the day on track."
     ],
     signature: {
       name: "Dallas",
@@ -132,7 +133,7 @@ export const landingCopy = {
       title: "✅ BuildFlow Changes That.",
       items: [
         "Confirmation already came in two days ago",
-        "Reminders went out automatically — you didn't think about it",
+        "Reminders went out automatically. No chasing, no follow-up texts from you.",
         "Backup sub notified before it became your problem",
         "You actually switched off last night",
         "Schedule holds because nothing slipped through",
