@@ -165,7 +165,7 @@ export const landingCopy = {
       },
       {
         question: "Will my subs answer if they don't recognize the number?",
-        answer: "Every message starts with your name — so it reads like a text from you, not a random number. Your subs see your name first and know exactly who it's from."
+        answer: "Every message starts with your name so your subs know exactly who it's from and what job it's about. No guessing, no confusion."
       },
       {
         question: "Do my subs need to download anything?",
