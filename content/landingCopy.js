@@ -56,7 +56,7 @@ export const landingCopy = {
   },
   howItWorks: {
     headline: "How BuildFlow Works",
-    subtitle: "One app. Automated texts. No chasing.",
+    subtitle: "No more chasing confirmations. BuildFlow sends the texts, captures the replies, and shows you exactly where every trade stands — all in one place.",
     steps: [
       {
         number: "1",
@@ -112,7 +112,7 @@ export const landingCopy = {
       },
       {
         title: "Zero Training",
-        description: "You'll be up and running fast. Your subs won't even know anything changed."
+        description: "You're up and running in minutes. Your subs just reply to a text — same as they always have."
       }
     ]
   },
