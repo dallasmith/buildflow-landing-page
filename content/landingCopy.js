@@ -10,14 +10,14 @@ export const landingCopy = {
       features: "Features",
       faq: "FAQ"
     },
-    cta: "🔒 Reserve Your Spot: $10"
+    cta: "Get Early Access: $10"
   },
   hero: {
     headline: 'Less Phone Time. More Build Time.',
-    subtitleHTML: "You're running jobs, not a call center. BuildFlow handles the scheduling texts, confirmations, and reminders automatically — so your subs show up, your projects stay on track, and you're not the one sending every follow-up.",
-    cta: { primary: 'Reserve Your Spot: $10' },
+    subtitleHTML: "Your subs confirm by text. You see who's in, who's out, and what's next — without making a single call. BuildFlow runs the coordination loop so you don't have to.",
+    cta: { primary: 'Get Early Access: $10' },
     trustHTML: `Fully refundable. No strings attached.<br>
-    Spots are limited, we're only taking 25 early users for the beta.`
+    Only 25 early access spots available.`
   },
   problem: {
     headline: "Sound Familiar?",
@@ -37,8 +37,8 @@ export const landingCopy = {
     ]
   },
   appScreenshot: {
-    headline: "See Every Job. Know Exactly Where You Stand.",
-    subtitle: "Save hours every week coordinating your contractors and subs. BuildFlow gives you clear visibility into who's confirmed, who's pending, and what's coming next, all in one simple view."
+    headline: "Every Job. Every Trade. One View.",
+    subtitle: "Most apps make you dig for status updates. BuildFlow surfaces them automatically — confirmed, pending, needs attention. You review outcomes instead of chasing them."
   },
   noteFromBuilder: {
     headline: "Built on the Job Site, by Someone Still in It",
@@ -55,37 +55,37 @@ export const landingCopy = {
     }
   },
   howItWorks: {
-    headline: "Less Phone Time. More Build Time.",
-    subtitle: "One app that keeps your contractors on schedule, without more calls or texts. BuildFlow handles the full communication loop: it sends the first text, captures replies, and follows up automatically.",
+    headline: "How BuildFlow Works",
+    subtitle: "One app. Automated texts. No chasing.",
     steps: [
       {
         number: "1",
         title: "Create Your Project",
-        description: "Set your project details and assign tasks and contractors (primary + backup)."
+        description: "Set your start date, add your tasks, and assign your trades. Primary and backup subs both go in upfront."
       },
       {
         number: "2",
-        title: "BuildFlow Texts Your Subs",
-        description: "Automatic SMS with job details. Subs reply \"Y\" or \"N\", no app for them to download. We built BuildFlow around how subcontractors already work: texting. No training for them, and almost none for you."
+        title: "Your Subs Get a Text",
+        description: "BuildFlow sends the confirmation request automatically. Your subs get a text with the job details. They reply Y to confirm, N to decline, or R to request a new date. No app to download, nothing new to learn."
       },
       {
         number: "3",
-        title: "Smart Reminders & Backups",
-        description: "48-hour and 24-hour reminders sent automatically. Switch to a backup with one tap if needed."
+        title: "You See the Outcome",
+        description: "Who confirmed, who declined, who needs a follow-up — it's all on your dashboard. 48 and 24-hour reminders go out automatically. If someone bails, your backup is one tap away."
       }
     ],
     cta: {
-      primary: "🔒 Reserve Your Spot: $10",
+      primary: "Get Early Access: $10",
       trustText: "Fully refundable. No strings attached."
     }
   },
   projectsScreenshot: {
     headline: "Multiple Jobs. Zero Chaos.",
-    subtitle: "Two jobs or ten — you need to know the status of every trade on every project without making a single call. That's exactly what BuildFlow shows you."
+    subtitle: "Two jobs or ten — you know the status of every trade on every project without making a single call. BuildFlow shows you exactly where things stand."
   },
   textConversations: {
     headline: "Real Conversations. Real Simple.",
-    subtitle: "Turn no-shows into confirmed jobs with automated texts and reminders."
+    subtitle: "Your subs reply by text. BuildFlow captures every answer, sends every reminder, and flags anything that needs your attention — before it becomes a problem."
   },
   features: {
     headline: "Built for People Who Get Projects Done",
@@ -103,12 +103,12 @@ export const landingCopy = {
         description: "Someone bails? Your backup is already in the system. One tap and they're on the job."
       },
       {
-        title: "Targeted Notifications",
-        description: "When something shifts, only the trades that need to know get notified. No noise, no confusion."
+        title: "Reschedule Flow",
+        description: "When a sub can't make it, they request a new date by text. You apply it with one tap. No back-and-forth calls."
       },
       {
-        title: "Real-Time Updates",
-        description: "Open the app and know exactly where every trade stands. No calls to find out."
+        title: "Real-Time Dashboard",
+        description: "Open the app and know exactly where every trade stands. Confirmed, pending, needs attention — all in one view."
       },
       {
         title: "Zero Training",
@@ -141,15 +141,19 @@ export const landingCopy = {
       ]
     }
   },
+  positioning: {
+    headline: "Most construction apps organize your job.",
+    subheadline: "BuildFlow runs it."
+  },
   ctaSection: {
     headline: "Get in Early. Stay Ahead.",
-    description: "(Only 25 beta spots available)",
+    description: "(Only 25 early access spots available)",
     benefits: [
-      "✅ First access to the beta",
-      "✅ Lifetime discount",
+      "✅ First access to the app",
+      "✅ Locked-in early access rate",
       "✅ Priority support"
     ],
-    cta: "🔒 Reserve Your Spot: $10",
+    cta: "Get Early Access: $10",
     trustText: "Fully refundable. No strings attached."
   },
   faq: {
@@ -157,40 +161,44 @@ export const landingCopy = {
     items: [
       {
         question: "Do I need to install anything?",
-        answer: "Yes, you'll install the BuildFlow app. Your contractors won't. They'll get texts from you like they already do, simple and seamless."
+        answer: "Yes, you install the BuildFlow app. Your subs don't install anything. They get a text and reply. That's the whole experience for them."
+      },
+      {
+        question: "Will my subs answer if they don't recognize the number?",
+        answer: "Every message starts with your name — so it reads like a text from you, not a random number. Your subs see your name first and know exactly who it's from."
+      },
+      {
+        question: "Do my subs need to download anything?",
+        answer: "No. Your subs reply by text — the same way they already communicate. No app, no account, no training. If they can text, they can use BuildFlow."
       },
       {
         question: "What happens after I pay?",
-        answer: "You're added to the early access crew. When beta opens, you'll be first in line and locked in at a discount."
+        answer: "You get early access to the BuildFlow app — a real, working tool being used on real job sites. You'll be among the first 25 users with priority support and a locked-in early access rate."
       },
       {
         question: "Why charge $10?",
-        answer: "It helps us prioritize builders and investors who are serious about early access. If it's not a fit, you'll get your $10 back."
+        answer: "It helps us prioritize builders who are serious about early access. If it's not a fit, you'll get your $10 back — no questions asked."
       },
       {
         question: "Will this bother my contractors?",
-        answer: "No. They already get texts from you, this just keeps communication consistent and less likely to fall through the cracks."
+        answer: "No. They already get texts from you. BuildFlow just makes sure those texts go out on time, every time — and captures the reply so you're not waiting on a response that never comes."
       },
       {
         question: "When does the beta start?",
-        answer: "We're launching beta testing at the beginning of 2026. Early access members get priority onboarding and first access when we go live."
+        answer: "Summer 2026. Early access members get priority onboarding and first access when we go live."
       }
     ]
   },
   finalCta: {
     headline: "Done Chasing Confirmations?",
-    description: "Join builders and investors who want to get ahead.",
-    cta: "🔒 Reserve Your Spot: $10"
+    description: "Join builders and investors who want to run tighter jobs.",
+    cta: "Get Early Access: $10"
   },
   footer: {
     buildflow: {
       title: "BuildFlow",
       description: "Built by builders, for builders. Stop chasing subs. Start building.",
-      socialLinks: [
-        { label: "Twitter", href: "#", ariaLabel: "Twitter" },
-        { label: "LinkedIn", href: "#", ariaLabel: "LinkedIn" },
-        { label: "Instagram", href: "#", ariaLabel: "Instagram" }
-      ]
+      socialLinks: []
     },
     product: {
       title: "Product",
@@ -203,9 +211,8 @@ export const landingCopy = {
     support: {
       title: "Support",
       links: [
-        { label: "Contact Us", href: "mailto:hello@buildflow.com" },
-        { label: "Help Center", href: "#faq" },
-        { label: "Status", href: "#" }
+        { label: "Contact Us", href: "mailto:support@buildflowapp.com" },
+        { label: "Help Center", href: "#faq" }
       ]
     },
     legal: {
@@ -216,6 +223,6 @@ export const landingCopy = {
         { label: "Cookie Policy", href: "cookies.html" }
       ]
     },
-    bottom: "© 2024 BuildFlow. All rights reserved."
+    bottom: "© 2025 BuildFlow. All rights reserved."
   }
 };
