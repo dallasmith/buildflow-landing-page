@@ -17,7 +17,8 @@ export const landingCopy = {
     subtitleHTML: "Your subs confirm by text. You see who's in, who's out, and what's next — without making a single call. BuildFlow runs the coordination loop so you don't have to.",
     cta: { primary: 'Get Early Access: $10' },
     trustHTML: `Fully refundable. No strings attached.<br>
-    Only 25 early access spots available.`
+Spots are limited, we're only taking 25 early users for the beta.<br>
+<span class="ios-notice">BuildFlow is currently available on iOS only.</span>`
   },
   problem: {
     headline: "Sound Familiar?",
@@ -160,32 +161,40 @@ export const landingCopy = {
     headline: "Frequently Asked Questions",
     items: [
       {
-        question: "Do I need to install anything?",
-        answer: "Yes, you install the BuildFlow app. Your subs don't install anything. They get a text and reply. That's the whole experience for them."
+        question: "How long does it take to get started?",
+        answer: "Most users are up and running in under 10 minutes. You download the app, create your first project, add your subs, and BuildFlow handles the rest. No complicated setup, no training required."
       },
       {
-        question: "Will my subs answer if they don't recognize the number?",
-        answer: "Every message starts with your name so your subs know exactly who it's from and what job it's about. No guessing, no confusion."
+        question: "My subs don't have iPhones — will BuildFlow still work for them?",
+        answer: "Yes. Your subs never download anything or log into anything. They just get a text and reply — that works on any phone, any carrier, anywhere. The only iOS requirement is you, the GC running the app."
       },
       {
-        question: "Do my subs need to download anything?",
-        answer: "No. Your subs reply by text — the same way they already communicate. No app, no account, no training. If they can text, they can use BuildFlow."
+        question: "Will my subs know who the texts are from?",
+        answer: "Yes. When you add a sub to BuildFlow, they get a one-time intro message letting them know you're using BuildFlow for scheduling. From there, every message includes your name so they always know who it's coming from. No confusion, no ignored texts."
       },
       {
-        question: "What happens after I pay?",
-        answer: "You get early access to the BuildFlow app — a real, working tool being used on real job sites. You'll be among the first 25 users with priority support and a locked-in early access rate."
+        question: "What if my subs ignore the texts or push back?",
+        answer: "Most subs respond the same way they respond to any text from their GC — because that's essentially what it is. Your name is on every message so it never feels like spam. And if someone doesn't respond, your backup sub is already in the system. One tap and you're covered."
+      },
+      {
+        question: "Do my subs need to create an account or remember a password?",
+        answer: "No. They just get a text and reply. That's the whole experience for them."
+      },
+      {
+        question: "What if I need to reschedule a job?",
+        answer: "Simple. You update the date in the app and BuildFlow can automatically notify the affected sub. No awkward calls, no manually texting everyone — it's handled."
+      },
+      {
+        question: "What happens after I reserve my spot?",
+        answer: "You're locked in as a founding member. When beta launches you'll be first in line, you'll get hands-on support during onboarding, and you'll be locked in at a founding member discount for as long as you're a subscriber."
       },
       {
         question: "Why charge $10?",
-        answer: "It helps us prioritize builders who are serious about early access. If it's not a fit, you'll get your $10 back — no questions asked."
+        answer: "It helps us prioritize builders and investors who are serious about early access. If it's not a fit, you'll get your $10 back."
       },
       {
-        question: "Will this bother my contractors?",
-        answer: "No. They already get texts from you. BuildFlow just makes sure those texts go out on time, every time — and captures the reply so you're not waiting on a response that never comes."
-      },
-      {
-        question: "When does the beta start?",
-        answer: "Summer 2026. Early access members get priority onboarding and first access when we go live."
+        question: "When do I get access?",
+        answer: "We're actively onboarding beta users now. Once your spot is reserved you'll hear from us directly with next steps."
       }
     ]
   },

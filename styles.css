@@ -169,6 +169,14 @@ p {
   text-shadow: none;
 }
 
+.ios-notice {
+  display: block;
+  margin-top: 8px;
+  font-size: 13px;
+  color: rgba(255, 255, 255, 0.7);
+  letter-spacing: 0.01em;
+}
+
 /* Trust text in how-it-works section should be black */
 #how-it-works .trust-text {
   color: #1a1a1a;
