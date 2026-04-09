@@ -150,9 +150,9 @@ Spots are limited, we're only taking 25 early users for the beta.<br>
     headline: "Get in Early. Stay Ahead.",
     description: "(Only 25 early access spots available)",
     benefits: [
-      "✅ First access to the app",
-      "✅ Locked-in early access rate",
-      "✅ Priority support"
+      "✅ First access to BuildFlow",
+      "✅ Locked in at founding rate",
+      "✅ Your feedback shapes what gets built"
     ],
     cta: "Get Early Access: $10",
     trustText: "Fully refundable. No strings attached."
