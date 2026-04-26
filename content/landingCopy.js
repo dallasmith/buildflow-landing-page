@@ -24,7 +24,7 @@ Spots are limited, we're only taking 25 early users for the beta.<br>
     headline: "Sound Familiar?",
     items: [
       {
-        title: "You're the Reminder System — and that's the problem.",
+        title: "You're the Reminder System...and that's the problem.",
         description: "You've got trades to manage, clients to update, and materials to track. Instead you're the one sending every confirmation, every reminder, every follow-up. That's time you're not getting back."
       },
       {
@@ -39,16 +39,16 @@ Spots are limited, we're only taking 25 early users for the beta.<br>
   },
   appScreenshot: {
     headline: "Every Job. Every Trade. One View.",
-    subtitle: "Most apps make you dig for status updates. BuildFlow surfaces them automatically — confirmed, pending, needs attention. You review outcomes instead of chasing them."
+    subtitle: "Most apps make you dig for status updates. BuildFlow surfaces them automatically: confirmed, pending, needs attention. You review outcomes instead of chasing them."
   },
   noteFromBuilder: {
     headline: "Built on the Job Site, by Someone Still in It",
     content: [
-      "I came from the job site — loading materials, sweeping floors, doing whatever needed to get done. Within six months I was running multiple renovation projects as a superintendent, managing trades, schedules, and clients day to day.",
-      "Most days felt like managing chaos. Between tracking confirmations, chasing no-shows, and explaining delays to owners, the work never really stopped — even when I left the site.",
+      "I came from the job site, loading materials, sweeping floors, doing whatever needed to get done. Within six months I was running multiple renovation projects as a superintendent, managing trades, schedules, and clients day to day.",
+      "Most days felt like managing chaos. Between tracking confirmations, chasing no-shows, and explaining delays to owners, the work never really stopped, even when I left the site.",
       "The job would end for the day but the mental checklist never did. Who confirmed? Who still hasn't replied? What falls apart tomorrow if I don't follow up tonight?",
       "That's when I thought: there had to be a better way.",
-      "That's why I built BuildFlow — not a bloated platform with a thousand tabs, just a simple tool for people like you and me: managing multiple jobs, juggling trades, and keeping the day on track."
+      "That's why I built BuildFlow. Not a bloated platform with a thousand tabs, just a simple tool for people like you and me: managing multiple jobs, juggling trades, and keeping the day on track."
     ],
     signature: {
       name: "Dallas",
@@ -72,7 +72,7 @@ Spots are limited, we're only taking 25 early users for the beta.<br>
       {
         number: "3",
         title: "You See the Outcome",
-        description: "Who confirmed, who declined, who needs a follow-up — it's all on your dashboard. 48 and 24-hour reminders go out automatically. If someone bails, your backup is one tap away."
+        description: "Who confirmed, who declined, who needs a follow-up...it's all on your dashboard. 48 and 24-hour reminders go out automatically. If someone bails, your backup is one tap away."
       }
     ],
     cta: {
@@ -82,11 +82,11 @@ Spots are limited, we're only taking 25 early users for the beta.<br>
   },
   projectsScreenshot: {
     headline: "Multiple Jobs. Zero Chaos.",
-    subtitle: "Two jobs or ten — you know the status of every trade on every project without making a single call. BuildFlow shows you exactly where things stand."
+    subtitle: "Two jobs or ten, you know the status of every trade on every project without making a single call. BuildFlow shows you exactly where things stand."
   },
   textConversations: {
     headline: "Real Conversations. Real Simple.",
-    subtitle: "Your subs reply by text. BuildFlow captures every answer, sends every reminder, and flags anything that needs your attention — before it becomes a problem."
+    subtitle: "BuildFlow captures every answer, sends every reminder, and flags anything that needs your attention before it becomes a problem."
   },
   features: {
     headline: "Built for People Who Get Projects Done",
@@ -109,11 +109,11 @@ Spots are limited, we're only taking 25 early users for the beta.<br>
       },
       {
         title: "Real-Time Dashboard",
-        description: "Open the app and know exactly where every trade stands. Confirmed, pending, needs attention — all in one view."
+        description: "Open the app and know exactly where every trade stands. Confirmed, pending, needs attention...all in one view."
       },
       {
         title: "Zero Training",
-        description: "You're up and running in minutes. Your subs just reply to a text — same as they always have."
+        description: "You're up and running in minutes. Your subs just reply to a text, same as they always have."
       }
     ]
   },
@@ -166,7 +166,7 @@ Spots are limited, we're only taking 25 early users for the beta.<br>
       },
       {
         question: "My subs don't have iPhones — will BuildFlow still work for them?",
-        answer: "Yes. Your subs never download anything or log into anything. They just get a text and reply — that works on any phone, any carrier, anywhere. The only iOS requirement is you, the GC running the app."
+        answer: "Yes. Your subs never download anything or log into anything. They just get a text and reply. That works on any phone, any carrier, anywhere. The only iOS requirement is you, the GC running the app."
       },
       {
         question: "Will my subs know who the texts are from?",
@@ -174,7 +174,7 @@ Spots are limited, we're only taking 25 early users for the beta.<br>
       },
       {
         question: "What if my subs ignore the texts or push back?",
-        answer: "Most subs respond the same way they respond to any text from their GC — because that's essentially what it is. Your name is on every message so it never feels like spam. And if someone doesn't respond, your backup sub is already in the system. One tap and you're covered."
+        answer: "Most subs respond the same way they respond to any text from their GC, because that's essentially what it is. Your name is on every message so it never feels like spam. And if someone doesn't respond, your backup sub is already in the system. One tap and you're covered."
       },
       {
         question: "Do my subs need to create an account or remember a password?",
