@@ -32,8 +32,8 @@ Spots are limited, we're only taking 25 early users for the beta.<br>
         description: "A sub ghosts, a message gets buried, and now you're a week behind explaining delays to a client who's already on edge. It cascades fast."
       },
       {
-        title: "Chasing Subs Is Costing You More Than You Think.",
-        description: "Every confirmation you're waiting on is living rent-free in your head. That's energy you're not putting into the next bid, the next job, or just switching off at the end of the day."
+        title: "The Schedule Is Only as Strong as Your Last Follow-Up.",
+        description: "Every unconfirmed trade is a risk you're carrying. One non-reply becomes a late start, a pushed timeline, and a client conversation you didn't want to have."
       }
     ]
   },
@@ -199,7 +199,7 @@ Spots are limited, we're only taking 25 early users for the beta.<br>
     ]
   },
   finalCta: {
-    headline: "Done Chasing Confirmations?",
+    headline: "Stop Chasing Confirmations.",
     description: "Join builders and investors who want to run tighter jobs.",
     cta: "Get Early Access: $10"
   },
