@@ -14,7 +14,7 @@ export const landingCopy = {
   },
   hero: {
     headline: 'Less Phone Time. More Build Time.',
-    subtitleHTML: "Your subs confirm by text. You see who's in, who's out, and what's next — without making a single call. BuildFlow runs the coordination loop so you don't have to.",
+    subtitleHTML: "Your subs confirm by text. You see who's in, who's out, and what's next...without making a single call. BuildFlow runs the coordination loop so you don't have to.",
     cta: { primary: 'Get Early Access: $10' },
     trustHTML: `Fully refundable. No strings attached.<br>
 Spots are limited, we're only taking 25 early users for the beta.<br>
