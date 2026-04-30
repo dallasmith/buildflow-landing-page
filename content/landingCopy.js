@@ -122,12 +122,12 @@ Spots are limited, we're only taking 25 early users for the beta.<br>
     before: {
       title: "The Way It's Always Been Done.",
       items: [
-        "Scrambling at 7am because nobody confirmed",
-        "Texting \"still good for Thursday?\" for the third time",
-        "Never sure who's actually showing up until they do",
-        "Your evening interrupted by work you forgot to chase",
-        "Delays you saw coming but couldn't stop",
-        "Clients sensing the disorganization before you say a word"
+        "Scrambling at 7am because nobody confirmed.",
+        "Texting \"still good for Thursday?\" for the third time.",
+        "Never sure who's actually showing up until they do.",
+        "Your evening interrupted by work you forgot to chase.",
+        "Delays you saw coming but couldn't stop.",
+        "Clients sensing the disorganization before you say a word."
       ]
     },
     after: {
