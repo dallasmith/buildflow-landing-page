@@ -29,7 +29,7 @@ Spots are limited, we're only taking 25 early users for the beta.<br>
       },
       {
         title: "You Never Really Know Who's Showing Up Until the Morning Of.",
-        description: "Not because your subs are unreliable — because confirmation is manual and things slip. BuildFlow closes that gap before it becomes a problem."
+        description: "Not because your subs are unreliable, because confirmation is manual and things slip. BuildFlow closes that gap before it becomes a problem."
       },
       {
         title: "Your Schedule Shouldn't Depend on Whether You Remembered to Follow Up.",
@@ -122,9 +122,9 @@ Spots are limited, we're only taking 25 early users for the beta.<br>
     before: {
       title: "The Way It's Always Been Done.",
       items: [
-        "Texting \"still good for Thursday?\" for the third time",
-        "Realizing at 7am the framer never confirmed",
         "Scrambling at 7am because nobody confirmed",
+        "Texting \"still good for Thursday?\" for the third time",
+        "Never sure who's actually showing up until they do",
         "Your evening interrupted by work you forgot to chase",
         "Delays you saw coming but couldn't stop",
         "Clients sensing the disorganization before you say a word"
@@ -133,12 +133,12 @@ Spots are limited, we're only taking 25 early users for the beta.<br>
     after: {
       title: "✅ BuildFlow Changes That.",
       items: [
-        "Confirmation already came in two days ago",
-        "Reminders went out automatically. No chasing, no follow-up texts from you.",
-        "Backup sub notified before it became your problem",
-        "You actually switched off last night",
-        "Schedule holds because nothing slipped through",
-        "Clients see a pro who has it handled"
+        "Confirmations came in days ago. You already knew.",
+        "BuildFlow sent the reminder. You didn't think about it.",
+        "Every trade's status is on your dashboard before the day starts.",
+        "You actually switched off last night.",
+        "Schedule holds because nothing slipped through.",
+        "Clients see a pro who has it handled."
       ]
     }
   },
@@ -165,7 +165,7 @@ Spots are limited, we're only taking 25 early users for the beta.<br>
         answer: "Most users are up and running in under 10 minutes. You download the app, create your first project, add your subs, and BuildFlow handles the rest. No complicated setup, no training required."
       },
       {
-        question: "My subs don't have iPhones — will BuildFlow still work for them?",
+        question: "My subs don't have iPhones. Will BuildFlow still work for them?",
         answer: "Yes. Your subs never download anything or log into anything. They just get a text and reply. That works on any phone, any carrier, anywhere. The only iOS requirement is you, the GC running the app."
       },
       {
