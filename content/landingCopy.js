@@ -21,19 +21,19 @@ Spots are limited, we're only taking 25 early users for the beta.<br>
 <span class="ios-notice">BuildFlow is currently available on iOS only.</span>`
   },
   problem: {
-    headline: "Sound Familiar?",
+    headline: "There's a Better Way to Start the Week.",
     items: [
       {
-        title: "You're the Reminder System...and that's the problem.",
-        description: "You've got trades to manage, clients to update, and materials to track. Instead you're the one sending every confirmation, every reminder, every follow-up. That's time you're not getting back."
+        title: "You've Been the Reminder System. You Don't Have to Be.",
+        description: "You've got trades to manage, clients to update, and materials to track. BuildFlow handles the confirmation loop automatically so you can focus on the work that actually moves the job forward."
       },
       {
-        title: "One Missed Reply Blows the Schedule.",
-        description: "A sub ghosts, a message gets buried, and now you're a week behind explaining delays to a client who's already on edge. It cascades fast."
+        title: "You Never Really Know Who's Showing Up Until the Morning Of.",
+        description: "Not because your subs are unreliable — because confirmation is manual and things slip. BuildFlow closes that gap before it becomes a problem."
       },
       {
-        title: "The Schedule Is Only as Strong as Your Last Follow-Up.",
-        description: "Every unconfirmed trade is a risk you're carrying. One non-reply becomes a late start, a pushed timeline, and a client conversation you didn't want to have."
+        title: "Your Schedule Shouldn't Depend on Whether You Remembered to Follow Up.",
+        description: "Every unconfirmed trade is a loose end you're carrying. BuildFlow ties them off automatically so nothing falls through because you were busy running the actual job."
       }
     ]
   },
@@ -57,7 +57,7 @@ Spots are limited, we're only taking 25 early users for the beta.<br>
   },
   howItWorks: {
     headline: "How BuildFlow Works",
-    subtitle: "No more chasing confirmations. BuildFlow sends the texts, captures the replies, and shows you exactly where every trade stands — all in one place.",
+    subtitle: "No more chasing confirmations. BuildFlow sends the texts, captures the replies, and shows you exactly where every trade stands, all in one place.",
     steps: [
       {
         number: "1",
@@ -120,14 +120,14 @@ Spots are limited, we're only taking 25 early users for the beta.<br>
   beforeAfter: {
     headline: "Before vs. After BuildFlow",
     before: {
-      title: "🔴 The Old Way Is Costing You.",
+      title: "The Way It's Always Been Done.",
       items: [
         "Texting \"still good for Thursday?\" for the third time",
         "Realizing at 7am the framer never confirmed",
-        "Sub ghosted. Schedule's blown. Client's calling.",
+        "Scrambling at 7am because nobody confirmed",
         "Your evening interrupted by work you forgot to chase",
         "Delays you saw coming but couldn't stop",
-        "Clients losing confidence"
+        "Clients sensing the disorganization before you say a word"
       ]
     },
     after: {
@@ -182,7 +182,7 @@ Spots are limited, we're only taking 25 early users for the beta.<br>
       },
       {
         question: "What if I need to reschedule a job?",
-        answer: "Simple. You update the date in the app and BuildFlow can automatically notify the affected sub. No awkward calls, no manually texting everyone — it's handled."
+        answer: "Simple. You update the date in the app and BuildFlow can automatically notify the affected sub. No awkward calls, no manually texting everyone. It's handled."
       },
       {
         question: "What happens after I reserve my spot?",
@@ -206,7 +206,7 @@ Spots are limited, we're only taking 25 early users for the beta.<br>
   footer: {
     buildflow: {
       title: "BuildFlow",
-      description: "Built by builders, for builders. Stop chasing subs. Start building.",
+      description: "Built by builders, for builders. A simpler way to run the job.",
       socialLinks: []
     },
     product: {
