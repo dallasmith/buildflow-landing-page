@@ -133,8 +133,8 @@ Spots are limited, we're only taking 25 early users for the beta.<br>
     after: {
       title: "✅ BuildFlow Changes That.",
       items: [
-        "Confirmations came in days ago. You already knew.",
-        "BuildFlow sent the reminder. You didn't think about it.",
+        "Confirmations came in days ago.",
+        "Reminders went out. No follow-up needed.",
         "Every trade's status is on your dashboard before the day starts.",
         "You actually switched off last night.",
         "Schedule holds because nothing slipped through.",
