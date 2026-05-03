@@ -14,32 +14,32 @@ export const landingCopy = {
   },
   hero: {
     headline: 'Less Phone Time. More Build Time.',
-    subtitleHTML: "Your subs confirm by text. You see who's in, who's out, and what's next...without making a single call. BuildFlow runs the coordination loop so you don't have to.",
+    subtitleHTML: "BuildFlow gives GCs who run their own show something most don't have. A simple project schedule, automated sub confirmations, and a clear view of every job. All in one place. Set up in minutes.",
     cta: { primary: 'Get Early Access: $10' },
     trustHTML: `Fully refundable. No strings attached.<br>
 Spots are limited, we're only taking 25 early users for the beta.<br>
 <span class="ios-notice">BuildFlow is currently available on iOS only.</span>`
   },
   problem: {
-    headline: "There's a Better Way to Start the Week.",
+    headline: "Most GCs Just Accept It as Part of the Job.",
     items: [
       {
         title: "You've Been the Reminder System. You Don't Have to Be.",
-        description: "You've got trades to manage, clients to update, and materials to track. BuildFlow handles the confirmation loop automatically so you can focus on the work that actually moves the job forward."
+        description: "You've got trades to manage, clients to update, and materials to track. And somewhere in between all of that, you're the one sending every confirmation text and following up when nobody replies. BuildFlow handles that part."
       },
       {
         title: "You Never Really Know Who's Showing Up Until the Morning Of.",
-        description: "Not because your subs are unreliable, because confirmation is manual and things slip. BuildFlow closes that gap before it becomes a problem."
+        description: "When confirmation happens manually, things slip. A text gets missed, a reply never comes, and you find out the morning of."
       },
       {
         title: "Your Schedule Shouldn't Depend on Whether You Remembered to Follow Up.",
-        description: "Every unconfirmed trade is a loose end you're carrying. BuildFlow ties them off automatically so nothing falls through because you were busy running the actual job."
+        description: "Every unconfirmed trade is something you're still carrying mentally. BuildFlow shows you exactly who's pending so you can act on it with one tap instead of digging through old texts."
       }
     ]
   },
   appScreenshot: {
     headline: "Every Job. Every Trade. One View.",
-    subtitle: "Most apps make you dig for status updates. BuildFlow surfaces them automatically: confirmed, pending, needs attention. You review outcomes instead of chasing them."
+    subtitle: "Open the app and see exactly what's confirmed, what's pending, and what needs your attention. No digging, no calls, no guessing."
   },
   noteFromBuilder: {
     headline: "Built on the Job Site, by Someone Still in It",
@@ -57,12 +57,12 @@ Spots are limited, we're only taking 25 early users for the beta.<br>
   },
   howItWorks: {
     headline: "How BuildFlow Works",
-    subtitle: "No more chasing confirmations. BuildFlow sends the texts, captures the replies, and shows you exactly where every trade stands, all in one place.",
+    subtitle: "You build the schedule, assign your trades, and BuildFlow handles the communication. Your subs get a text, they reply, and you see the result on your dashboard. That's the whole loop.",
     steps: [
       {
         number: "1",
         title: "Create Your Project",
-        description: "Set your start date, add your tasks, and assign your trades. Primary and backup subs both go in upfront."
+        description: "Build your project schedule in minutes. Add your tasks, set your dates, and assign your trades. Everything lives in one place from day one, not spread across a spreadsheet, a calendar, and whatever you can remember."
       },
       {
         number: "2",
@@ -72,7 +72,7 @@ Spots are limited, we're only taking 25 early users for the beta.<br>
       {
         number: "3",
         title: "You See the Outcome",
-        description: "Who confirmed, who declined, who needs a follow-up...it's all on your dashboard. 48 and 24-hour reminders go out automatically. If someone bails, your backup is one tap away."
+        description: "You show up Monday knowing exactly what the week looks like. Reminders went out automatically. If someone bails, your backup is one tap away."
       }
     ],
     cta: {
@@ -82,7 +82,7 @@ Spots are limited, we're only taking 25 early users for the beta.<br>
   },
   projectsScreenshot: {
     headline: "Multiple Jobs. Zero Chaos.",
-    subtitle: "Two jobs or ten, you know the status of every trade on every project without making a single call. BuildFlow shows you exactly where things stand."
+    subtitle: "Two jobs or ten, you're running them like someone who's done it for years."
   },
   textConversations: {
     headline: "Real Conversations. Real Simple.",
@@ -92,53 +92,53 @@ Spots are limited, we're only taking 25 early users for the beta.<br>
     headline: "Built for People Who Get Projects Done",
     items: [
       {
-        title: "Text-Based Scheduling",
-        description: "Your subs don't download anything. They get a text, they reply. That's it."
+        title: "Project Scheduling",
+        description: "Build your project schedule in minutes. Tasks, dates, and trades all in one place."
+      },
+      {
+        title: "Automated Confirmations",
+        description: "BuildFlow texts your subs automatically seven days before their start date. They reply Y, N, or R. You see the answer on your dashboard."
       },
       {
         title: "Smart Reminders",
-        description: "48 and 24-hour reminders go out without you touching a thing. No-shows don't sneak up on you."
+        description: "48 and 24-hour reminders go out on their own. You don't schedule them, you don't send them. They just happen."
       },
       {
         title: "Backup Subs",
-        description: "Someone bails? Your backup is already in the system. One tap and they're on the job."
-      },
-      {
-        title: "Reschedule Flow",
-        description: "When a sub can't make it, they request a new date by text. You apply it with one tap. No back-and-forth calls."
+        description: "Assign a backup upfront. If your primary bails, one tap sends the job to your backup. No scrambling."
       },
       {
         title: "Real-Time Dashboard",
-        description: "Open the app and know exactly where every trade stands. Confirmed, pending, needs attention...all in one view."
+        description: "Every project, every trade, every status. All in one view before the day starts."
       },
       {
-        title: "Zero Training",
-        description: "You're up and running in minutes. Your subs just reply to a text, same as they always have."
+        title: "Zero Training for Your Subs",
+        description: "They get a text. They reply. That's it. No app, no login, no explaining."
       }
     ]
   },
   beforeAfter: {
-    headline: "Before vs. After BuildFlow",
+    headline: "Running a Job Without BuildFlow. Running One With It.",
     before: {
       title: "The Way It's Always Been Done.",
       items: [
-        "Scrambling at 7am because nobody confirmed.",
-        "Texting \"still good for Thursday?\" for the third time.",
-        "Never sure who's actually showing up until they do.",
-        "Your evening interrupted by work you forgot to chase.",
-        "Delays you saw coming but couldn't stop.",
-        "Clients sensing the disorganization before you say a word."
+        "Your schedule lives in your phone, a notebook, or your head. None of them talk to each other.",
+        "A new project means starting from scratch figuring out where to begin.",
+        "Waiting on replies to texts you can't remember if you actually sent.",
+        "Following up on things you already followed up on.",
+        "That nagging feeling in the back of your head that won't go away until everyone's confirmed.",
+        "Starting every week hoping nothing falls through the cracks."
       ]
     },
     after: {
       title: "✅ BuildFlow Changes That.",
       items: [
-        "Confirmations came in days ago.",
-        "Reminders went out. No follow-up needed.",
-        "Every trade's status is on your dashboard before the day starts.",
-        "You actually switched off last night.",
-        "Schedule holds because nothing slipped through.",
-        "Clients see a pro who has it handled."
+        "Every project, every trade, every task in one place from day one.",
+        "Up and running in minutes. No starting from scratch.",
+        "Your sub replied. BuildFlow captured it. You have the answer.",
+        "Reminders went out automatically. No follow-up needed.",
+        "The nagging feeling is gone. Everyone's confirmed and you know it.",
+        "You show up knowing exactly what the day looks like."
       ]
     }
   },
@@ -199,8 +199,8 @@ Spots are limited, we're only taking 25 early users for the beta.<br>
     ]
   },
   finalCta: {
-    headline: "Stop Chasing Confirmations.",
-    description: "Join builders and investors who want to run tighter jobs.",
+    headline: "Your Schedule. Your Subs. One Place.",
+    description: "Join the GCs who decided to stop doing it the hard way.",
     cta: "Get Early Access: $10"
   },
   footer: {
