@@ -32,7 +32,7 @@ Spots are limited, we're only taking 25 early users for the beta.<br>
         description: "No real starting point, no organized schedule. You know what needs to happen but it's all in your head. BuildFlow gives you a simple schedule so your trades, dates, and tasks are organized before the job starts."
       },
       {
-        title: "Everything You Haven't Confirmed Is Still on Your Mind.",
+        title: "The Ones Who Haven't Replied Are Still in Your Head.",
         description: "Every trade that hasn't replied is something you're carrying. BuildFlow shows you exactly who's pending so you can handle it with one tap."
       }
     ]
