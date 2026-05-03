@@ -81,7 +81,11 @@ function populateNoteFromBuilder() {
 // Function to populate how it works section
 function populateHowItWorks() {
   setTextContent('#how-it-works h2', landingCopy.howItWorks.headline);
-  
+  setTextContent(
+    '#how-it-works .section-subtitle',
+    landingCopy.howItWorks.subtitle
+  );
+
   const steps = document.querySelectorAll('#how-it-works .step');
   landingCopy.howItWorks.steps.forEach((step, index) => {
     if (steps[index]) {
@@ -144,18 +148,33 @@ function populateBeforeAfter() {
 
 // Function to populate CTA section
 function populateCtaSection() {
-  setTextContent('#cta-section h2', landingCopy.ctaSection.headline);
-  setTextContent('#cta-section p', landingCopy.ctaSection.description);
-  
-  const benefits = document.querySelectorAll('#cta-section .benefit');
+  setTextContent('#early-access h2',
+    landingCopy.ctaSection.headline);
+
+  setTextContent('#early-access .beta-count',
+    landingCopy.ctaSection.description);
+
+  const perks = document.querySelectorAll(
+    '#early-access .perk span:last-child');
   landingCopy.ctaSection.benefits.forEach((benefit, index) => {
-    if (benefits[index]) {
-      setTextContent(`#cta-section .benefit:nth-child(${index + 1})`, benefit);
+    if (perks[index]) {
+      perks[index].textContent = benefit
+        .replace('✅ ', '');
     }
   });
-  
-  setTextContent('#cta-section .primary-cta', landingCopy.ctaSection.cta);
-  setTextContent('#cta-section .trust-text', landingCopy.ctaSection.trustText);
+
+  setTextContent('#early-access .primary-cta',
+    landingCopy.ctaSection.cta);
+
+  setTextContent('#early-access .beta-note',
+    landingCopy.ctaSection.trustText);
+}
+
+function populateIdentityLine() {
+  setTextContent(
+    '#identity-line .identity-statement',
+    landingCopy.identityLine
+  );
 }
 
 // Function to populate FAQ section
@@ -204,6 +223,7 @@ function populateAllContent() {
     populateFeatures();
     populateBeforeAfter();
     populateCtaSection();
+    populateIdentityLine();
     populateFaq();
     populateFinalCta();
     populateFooter();

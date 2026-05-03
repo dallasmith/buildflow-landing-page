@@ -146,6 +146,7 @@ Spots are limited, we're only taking 25 early users for the beta.<br>
     headline: "Most construction apps organize your job.",
     subheadline: "BuildFlow runs it."
   },
+  identityLine: "The GCs who run the tightest jobs aren't necessarily the most experienced. They're the ones with the best systems.",
   ctaSection: {
     headline: "Get in Early. Stay Ahead.",
     description: "(Only 25 early access spots available)",
