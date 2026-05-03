@@ -32,14 +32,14 @@ Spots are limited, we're only taking 25 early users for the beta.<br>
         description: "When confirmation happens manually, things slip. A text gets missed, a reply never comes, and you find out the morning of."
       },
       {
-        title: "Your Schedule Shouldn't Depend on Whether You Remembered to Follow Up.",
-        description: "Every unconfirmed trade is something you're still carrying mentally. BuildFlow shows you exactly who's pending so you can act on it with one tap instead of digging through old texts."
+        title: "Everything You Haven't Confirmed Is Still on Your Mind.",
+        description: "Every trade that hasn't replied is something you're carrying. BuildFlow shows you exactly who's pending so you can handle it with one tap."
       }
     ]
   },
   appScreenshot: {
     headline: "Every Job. Every Trade. One View.",
-    subtitle: "Open the app and see exactly what's confirmed, what's pending, and what needs your attention. No digging, no calls, no guessing."
+    subtitle: "Most tools make you dig for status updates. BuildFlow puts them in front of you. Who's confirmed, who's pending, what needs your attention. No calls, no guessing."
   },
   noteFromBuilder: {
     headline: "Built on the Job Site, by Someone Still in It",
@@ -57,7 +57,7 @@ Spots are limited, we're only taking 25 early users for the beta.<br>
   },
   howItWorks: {
     headline: "How BuildFlow Works",
-    subtitle: "You build the schedule, assign your trades, and BuildFlow handles the communication. Your subs get a text, they reply, and you see the result on your dashboard. That's the whole loop.",
+    subtitle: "You build the schedule, assign your trades, and BuildFlow handles the rest. Your subs get a text, they reply, you see it on your dashboard.",
     steps: [
       {
         number: "1",
