@@ -28,8 +28,8 @@ Spots are limited, we're only taking 25 early users for the beta.<br>
         description: "You've got trades to manage, clients to update, and materials to track. And somewhere in between all of that, you're the one sending every confirmation text and following up when nobody replies. BuildFlow handles that part."
       },
       {
-        title: "You Never Really Know Who's Showing Up Until the Morning Of.",
-        description: "When confirmation happens manually, things slip. A text gets missed, a reply never comes, and you find out the morning of."
+        title: "Plenty of GCs Start a New Job the Same Way. Winging It.",
+        description: "No real starting point, no organized schedule. You know what needs to happen but it's all in your head. BuildFlow gives you a simple schedule so your trades, dates, and tasks are organized before the job starts."
       },
       {
         title: "Everything You Haven't Confirmed Is Still on Your Mind.",
