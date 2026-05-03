@@ -991,6 +991,21 @@ p {
   padding: 4rem 0;
 }
 
+#identity-line {
+  padding: 48px 0;
+  text-align: center;
+  background-color: transparent;
+}
+
+#identity-line .identity-statement {
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: #1a1a1a;
+  max-width: 680px;
+  margin: 0 auto;
+  line-height: 1.6;
+}
+
 .comparison {
   display: grid;
   grid-template-columns: 1fr 1fr;
