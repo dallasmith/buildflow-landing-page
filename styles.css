@@ -1006,6 +1006,25 @@ p {
   line-height: 1.6;
 }
 
+#testimonials {
+  padding: 64px 0;
+  text-align: center;
+  background-color: #f8f9fa;
+}
+
+#testimonials .testimonials-headline {
+  font-size: 1.75rem;
+  font-weight: 700;
+  color: #1a1a1a;
+  margin-bottom: 12px;
+}
+
+#testimonials .testimonials-subtext {
+  font-size: 1rem;
+  color: #888888;
+  font-style: italic;
+}
+
 .comparison {
   display: grid;
   grid-template-columns: 1fr 1fr;
