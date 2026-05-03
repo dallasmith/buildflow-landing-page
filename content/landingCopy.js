@@ -134,7 +134,7 @@ Spots are limited, we're only taking 25 early users for the beta.<br>
       title: "✅ BuildFlow Changes That.",
       items: [
         "Every project, every trade, every task in one place from day one.",
-        "Up and running in minutes. No starting from scratch.",
+        "New project ready in minutes. No guesswork.",
         "Your sub replied. BuildFlow captured it. You have the answer.",
         "Reminders went out automatically. No follow-up needed.",
         "The nagging feeling is gone. Everyone's confirmed and you know it.",
