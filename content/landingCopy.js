@@ -42,7 +42,7 @@ Spots are limited, we're only taking 25 early users for the beta.<br>
     subtitle: "Most tools make you dig for status updates. BuildFlow puts them in front of you. Who's confirmed, who's pending, what needs your attention. No calls, no guessing."
   },
   noteFromBuilder: {
-    headline: "This Started as a Side Project.",
+    headline: "This Started as a Side Project...",
     content: [
       "When I got into my role as superintendent I wasn't fully aware of what all went into managing a project. I quickly realized there is a lot of information to manage. I used the system that was taught to me by my coworkers who had been doing this job for years. Texts and calls to our subs and then writing their start dates down on my calendar.",
       "Our company uses one of the bigger software platforms to manage our projects and I've tried a bunch of different ways to track and manage my day to day but nothing seemed to do what I needed it to do. Don't get me wrong, those other apps are great for what they are, but as someone doing the day to day management nothing actually helped make my job easier. Just more shuffling around of information and another place for it to live.",
