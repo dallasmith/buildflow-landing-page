@@ -14,7 +14,7 @@ export const landingCopy = {
   },
   hero: {
     headline: 'Less Phone Time. More Build Time.',
-    subtitleHTML: "BuildFlow gives GCs who run their own show something most don't have. A simple project schedule, automated sub confirmations, and a clear view of every job. All in one place. Set up in minutes.",
+    subtitleHTML: "BuildFlow gives GCs who run their own show something most don't have. A simple project schedule, automatic sub confirmations, and a clear view of every job. Whether you're running two jobs or six, nothing slips because everything is tracked.",
     cta: { primary: 'Get Early Access: $10' },
     trustHTML: `Fully refundable. No strings attached.<br>
 Spots are limited, we're only taking 25 early users for the beta.<br>
@@ -42,13 +42,12 @@ Spots are limited, we're only taking 25 early users for the beta.<br>
     subtitle: "Most tools make you dig for status updates. BuildFlow puts them in front of you. Who's confirmed, who's pending, what needs your attention. No calls, no guessing."
   },
   noteFromBuilder: {
-    headline: "Built on the Job Site, by Someone Still in It",
+    headline: "Built by Someone Still in the Field",
     content: [
-      "I came from the job site, loading materials, sweeping floors, doing whatever needed to get done. Within six months I was running multiple renovation projects as a superintendent, managing trades, schedules, and clients day to day.",
-      "Most days felt like managing chaos. Between tracking confirmations, chasing no-shows, and explaining delays to owners, the work never really stopped, even when I left the site.",
-      "The job would end for the day but the mental checklist never did. Who confirmed? Who still hasn't replied? What falls apart tomorrow if I don't follow up tonight?",
-      "That's when I thought: there had to be a better way.",
-      "That's why I built BuildFlow. Not a bloated platform with a thousand tabs, just a simple tool for people like you and me: managing multiple jobs, juggling trades, and keeping the day on track."
+      "When I got into my role as superintendent I wasn't fully aware of what all went into managing a project. I quickly realized there is a lot of information to manage. I used the system that was taught to me by my coworkers who had been doing this job for years. Texts and calls to our subs and then writing their start dates down on my calendar.",
+      "Our company uses one of the bigger software platforms to manage our projects and I've tried a bunch of different ways to track and manage my day to day but nothing seemed to do what I needed it to do. Don't get me wrong, those other apps are great for what they are, but as someone doing the day to day management nothing actually helped make my job easier. Just more shuffling around of information and another place for it to live.",
+      "This started out as a side project out of curiosity to see if I could actually build something that worked. Turns out, I didn't realize how much this actually takes off my plate and how much of my time was spent mentally tracking my projects instead of having something smarter run and track my scheduling. Not having that mental load has freed up stress from my life and my projects are running smoother and on track to finish on time.",
+      "If any of this sounds familiar, BuildFlow might be worth a look."
     ],
     signature: {
       name: "Dallas",
