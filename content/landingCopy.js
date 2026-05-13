@@ -189,10 +189,6 @@ We're only taking 25 early users for the beta.<br>
         answer: "You're locked in as a founding member. When beta launches you'll be first in line, you'll get hands-on support during onboarding, and you'll be locked in at a founding member discount for as long as you're a subscriber."
       },
       {
-        question: "Why charge $10?",
-        answer: "It helps us prioritize builders and investors who are serious about early access. If it's not a fit, you'll get your $10 back."
-      },
-      {
         question: "When do I get access?",
         answer: "We're actively onboarding beta users now. Once your spot is reserved you'll hear from us directly with next steps."
       }
