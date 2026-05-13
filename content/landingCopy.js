@@ -16,8 +16,8 @@ export const landingCopy = {
     headline: 'Less Phone Time. More Build Time.',
     subtitleHTML: "BuildFlow gives GCs who run their own show something most don't have. A simple project schedule, automatic sub confirmations, and a clear view of every job. Whether you're running two jobs or six, nothing slips because everything is tracked.",
     cta: { primary: 'Get Early Access' },
-    trustHTML: `Fully refundable. No strings attached.<br>
-Spots are limited, we're only taking 25 early users for the beta.<br>
+    trustHTML: `Free to join. Spots are limited.<br>
+We're only taking 25 early users for the beta.<br>
 <span class="ios-notice">BuildFlow is currently available on iOS only.</span>`
   },
   problem: {
@@ -76,7 +76,7 @@ Spots are limited, we're only taking 25 early users for the beta.<br>
     ],
     cta: {
       primary: "Get Early Access",
-      trustText: "Fully refundable. No strings attached."
+      trustText: "Free to join. Spots are limited."
     }
   },
   projectsScreenshot: {
@@ -155,7 +155,7 @@ Spots are limited, we're only taking 25 early users for the beta.<br>
       "✅ Your feedback shapes what gets built"
     ],
     cta: "Get Early Access",
-    trustText: "Fully refundable. No strings attached."
+    trustText: "Free to join. Spots are limited."
   },
   faq: {
     headline: "Frequently Asked Questions",
