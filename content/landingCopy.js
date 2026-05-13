@@ -10,12 +10,12 @@ export const landingCopy = {
       features: "Features",
       faq: "FAQ"
     },
-    cta: "Get Early Access: $10"
+    cta: "Get Early Access"
   },
   hero: {
     headline: 'Less Phone Time. More Build Time.',
     subtitleHTML: "BuildFlow gives GCs who run their own show something most don't have. A simple project schedule, automatic sub confirmations, and a clear view of every job. Whether you're running two jobs or six, nothing slips because everything is tracked.",
-    cta: { primary: 'Get Early Access: $10' },
+    cta: { primary: 'Get Early Access' },
     trustHTML: `Fully refundable. No strings attached.<br>
 Spots are limited, we're only taking 25 early users for the beta.<br>
 <span class="ios-notice">BuildFlow is currently available on iOS only.</span>`
@@ -75,7 +75,7 @@ Spots are limited, we're only taking 25 early users for the beta.<br>
       }
     ],
     cta: {
-      primary: "Get Early Access: $10",
+      primary: "Get Early Access",
       trustText: "Fully refundable. No strings attached."
     }
   },
@@ -154,7 +154,7 @@ Spots are limited, we're only taking 25 early users for the beta.<br>
       "✅ Locked in at founding rate",
       "✅ Your feedback shapes what gets built"
     ],
-    cta: "Get Early Access: $10",
+    cta: "Get Early Access",
     trustText: "Fully refundable. No strings attached."
   },
   faq: {
@@ -201,7 +201,7 @@ Spots are limited, we're only taking 25 early users for the beta.<br>
   finalCta: {
     headline: "Your Schedule. Your Subs. One Place.",
     description: "Join the GCs who decided to stop doing it the hard way.",
-    cta: "Get Early Access: $10"
+    cta: "Get Early Access"
   },
   footer: {
     buildflow: {
