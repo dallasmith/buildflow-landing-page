@@ -38,7 +38,7 @@ export const landingCopy = {
   },
   appScreenshot: {
     headline: "Every Job. Every Trade. One View.",
-    subtitle: "Most tools make you dig for status updates. BuildFlow puts them in front of you. Who's confirmed, who's pending, what needs your attention. No calls, no guessing."
+    subtitle: "Most construction apps organize your job. BuildFlow runs it. Your confirmations go out without you sending them. Your reminders go out without you scheduling them. That's not a better way to organize the work. That's the work getting done."
   },
   noteFromBuilder: {
     headline: "Built by Someone Still Doing the Job.",
