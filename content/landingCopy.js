@@ -14,10 +14,9 @@ export const landingCopy = {
   },
   hero: {
     headline: 'Less Phone Time. More Build Time.',
-    subtitleHTML: "BuildFlow gives GCs who run their own show something most don't have. A simple project schedule, automatic sub confirmations, and a clear view of every job. Whether you're running two jobs or six, nothing slips because everything is tracked.",
+    subtitleHTML: "BuildFlow gives GCs who run their own show what most don't have. A simple project schedule, automatic sub confirmations, and a clear view of every job. Your trades get a text. They reply Y to confirm, N to decline, or R to reschedule. You see the answer on your dashboard. No more mental checklists at 10pm. Just show up and run the job.",
     cta: { primary: 'Get Early Access' },
-    trustHTML: `Free to join. Spots are limited.<br>
-We're only taking 25 early users for the beta.<br>
+    trustHTML: `Free during beta. 25 spots. Founding members lock in the lowest rate BuildFlow will ever offer.<br>
 <span class="ios-notice">BuildFlow is currently available on iOS only.</span>`
   },
   problem: {
@@ -42,12 +41,11 @@ We're only taking 25 early users for the beta.<br>
     subtitle: "Most tools make you dig for status updates. BuildFlow puts them in front of you. Who's confirmed, who's pending, what needs your attention. No calls, no guessing."
   },
   noteFromBuilder: {
-    headline: "This Started as a Side Project...",
+    headline: "Built by Someone Still Doing the Job.",
     content: [
-      "When I got into my role as superintendent I wasn't fully aware of what all went into managing a project. I quickly realized there is a lot of information to manage. I used the system that was taught to me by my coworkers who had been doing this job for years. Texts and calls to our subs and then writing their start dates down on my calendar.",
-      "Our company uses one of the bigger software platforms to manage our projects and I've tried a bunch of different ways to track and manage my day to day but nothing seemed to do what I needed it to do. Don't get me wrong, those other apps are great for what they are, but as someone doing the day to day management nothing actually helped make my job easier. Just more shuffling around of information and another place for it to live.",
-      "This started out as a side project out of curiosity to see if I could actually build something that worked. Turns out, I didn't realize how much this actually takes off my plate and how much of my time was spent mentally tracking my projects instead of having something smarter run and track my scheduling. Not having that mental load has freed up stress from my life and my projects are running smoother and on track to finish on time.",
-      "If any of this sounds familiar, BuildFlow might be worth a look."
+      "I started as a job site assistant. Loading materials, sweeping floors, doing whatever needed doing. Within six months I was asked to run projects. A year later I was managing up to six renovation jobs at a time.",
+      "Nobody handed me a system. I inherited the one everyone uses. Texts to subs, dates on a calendar, and a mental checklist that never fully turned off even after I left the site. Who confirmed? Who still hasn't replied? What falls apart tomorrow if I don't follow up tonight?",
+      "I built BuildFlow because I needed it. Not as an experiment. Because the tool didn't exist and I was tired of being the reminder system for every trade on every job. If that sounds familiar, you're exactly who I built it for."
     ],
     signature: {
       name: "Dallas",
@@ -76,7 +74,7 @@ We're only taking 25 early users for the beta.<br>
     ],
     cta: {
       primary: "Get Early Access",
-      trustText: "Free to join. Spots are limited."
+      trustText: "Free during beta. 25 spots."
     }
   },
   projectsScreenshot: {
@@ -142,20 +140,20 @@ We're only taking 25 early users for the beta.<br>
     }
   },
   positioning: {
-    headline: "Most construction apps organize your job.",
-    subheadline: "BuildFlow runs it."
+    headline: "Most GCs are managing their schedule across a dozen individual text threads, a half-updated calendar, and whatever they can remember on the drive in. That system works until it doesn't. When it breaks, it breaks on a Monday morning.",
+    subheadline: "Most construction apps organize your job. BuildFlow runs it."
   },
   identityLine: "The GCs who run the tightest jobs aren't necessarily the most experienced. They're the ones with the best systems.",
   ctaSection: {
     headline: "Get in Early. Stay Ahead.",
-    description: "(Only 25 early access spots available)",
+    description: "(Only 25 spots available)",
     benefits: [
-      "✅ First access to BuildFlow",
-      "✅ Locked in at founding rate",
-      "✅ Your feedback shapes what gets built"
+      "First access to BuildFlow.",
+      "Founding rate locked in for as long as you're a subscriber.",
+      "Your feedback shapes what gets built next."
     ],
     cta: "Get Early Access",
-    trustText: "Free to join. Spots are limited."
+    trustText: "Free during beta. 25 spots. Founding members lock in the lowest rate BuildFlow will ever offer."
   },
   faq: {
     headline: "Frequently Asked Questions",
@@ -185,8 +183,8 @@ We're only taking 25 early users for the beta.<br>
         answer: "Simple. You update the date in the app and BuildFlow can automatically notify the affected sub. No awkward calls, no manually texting everyone. It's handled."
       },
       {
-        question: "What happens after I reserve my spot?",
-        answer: "You're locked in as a founding member. When beta launches you'll be first in line, you'll get hands-on support during onboarding, and you'll be locked in at a founding member discount for as long as you're a subscriber."
+        question: "What happens after I sign up?",
+        answer: "You're locked in as a founding member. You'll get hands-on support during onboarding and access as soon as we're ready to bring you in."
       },
       {
         question: "When do I get access?",
@@ -195,7 +193,7 @@ We're only taking 25 early users for the beta.<br>
     ]
   },
   finalCta: {
-    headline: "Your Schedule. Your Subs. One Place.",
+    headline: "Your schedule. Your subs. No more mental checklists at 10pm.",
     description: "Join the GCs who decided to stop doing it the hard way.",
     cta: "Get Early Access"
   },
