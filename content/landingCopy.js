@@ -115,7 +115,7 @@ export const landingCopy = {
     ]
   },
   beforeAfter: {
-    headline: "Running a Job Without BuildFlow. Running One With It.",
+    headline: "Before BuildFlow. After BuildFlow.",
     before: {
       title: "The Way It's Always Been Done.",
       items: [
