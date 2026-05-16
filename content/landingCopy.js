@@ -141,7 +141,7 @@ export const landingCopy = {
   },
   positioning: {
     headline: "Most GCs are managing their schedule across a dozen individual text threads, a half-updated calendar, and whatever they can remember on the drive in. That system works until it doesn't. When it breaks, it breaks on a Monday morning.",
-    subheadline: "Most construction apps organize your job. BuildFlow runs it."
+    subheadline: "Most construction apps organize your job. BuildFlow runs it. Your confirmations go out without you sending them. Your reminders go out without you scheduling them. That's not a better way to organize the work. That's the work getting done."
   },
   identityLine: "The GCs who run the tightest jobs aren't necessarily the most experienced. They're the ones with the best systems.",
   ctaSection: {
