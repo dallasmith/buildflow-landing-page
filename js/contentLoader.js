@@ -140,8 +140,8 @@ function populateFeatures() {
 
 // Function to populate before/after section
 function populateBeforeAfter() {
-  setTextContent('#before-after h2', landingCopy.beforeAfter.headline);
-  
+  // setTextContent('#before-after h2', landingCopy.beforeAfter.headline);
+
   setTextContent('#before-after .before h3', landingCopy.beforeAfter.before.title);
   setTextContent('#before-after .after h3', landingCopy.beforeAfter.after.title);
   
